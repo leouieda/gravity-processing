@@ -12,7 +12,8 @@ dependencies:
     - jupyter
     - jupyterlab
     - livereload
-    # Fatiando a Terra packages (used to check calculations)
+    - pyproj
+    # Fatiando a Terra packages (used to check calculations and prepare data)
     - pooch
     - verde
     - harmonica
