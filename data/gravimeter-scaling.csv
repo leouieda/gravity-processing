@@ -1,4 +1,3 @@
-# Scaling values from readings to mGal for University of Liverpool L&G gravimter Model G 563
 counter_reading,value_mgal,interval_factor
 0000,0000.00,1.00636
 0100,0100.64,1.00621
