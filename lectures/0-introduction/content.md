@@ -43,13 +43,19 @@ Gravimetry
 
 # Sessions (weeks 4-6)
 
+<div class="lefted">
+
 Live sessions on Wednesday:
 
-* 15:00 - 17:00: Computer practical (using Python)
+* 15:00 - 17:00: Lecture + computer practical (using Python)
 
-Recorded videos and reading:
+Recorded videos, reading, and practical homework:
 
-* Short lectures (15 minutes maximum) and/or reading
+* Short videos to supplement the lecture (10 minutes maximum)
+* Reading material
+* Parts of the practical to do on your own
+
+</div>
 
 ---
 
