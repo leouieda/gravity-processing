@@ -52,7 +52,8 @@ Gravimetry
 
 Measure gravity acceleration along the vertical
 
-High accuracy (μGal = 1e-8 m/s²)
+High accuracy at [μGal level](http://microglacoste.com/wp-content/uploads/2018/02/FG5-X-Brochure.pdf)
+(1e-8 m/s²)
 
 Usually work by dropping a mass in a vacuum
 
@@ -65,7 +66,7 @@ time-lapse measurements)
 </div>
 <div class="col-small tiny">
 
-[A10 Microg LaCoste portable absolute gravimeter](http://microglacoste.com/product/a10-outdoor-absolute-gravimeter/)
+[Microg LaCoste A10 portable absolute gravimeter](http://microglacoste.com/product/a10-outdoor-absolute-gravimeter/)
 
 <img src="../images/A10_absolute_gravity_meter.jpg" style="width: 80%;">
 
@@ -74,8 +75,43 @@ time-lapse measurements)
 
 <div class="r-stretch bottom-right">
 
-Credit: [Jeff Kennedy, USGS](https://www.usgs.gov/media/images/a10-absolute-gravity-meter)
+Image credit: [Jeff Kennedy, USGS](https://www.usgs.gov/media/images/a10-absolute-gravity-meter)
 (public domain)
+
+</div>
+
+---
+
+<div class="container">
+<div class="col-large small">
+
+# Relative gravimeters
+
+Measure a change in gravity acceleration along the vertical
+
+High accuracy at [μGal level](http://microglacoste.com/wp-content/uploads/2019/01/CG-6-Brochure_R5.pdf)
+(1e-8 m/s²)
+
+Usually a mass and spring system
+
+Suffers from drift, requires referencing to a base station with known gravity
+
+Light-weight, fast reading time, low power consumption, truly portable
+
+</div>
+<div class="col-small tiny">
+
+[Microg LaCoste CG5 relative gravimeter]()
+
+<img src="../images/Autograv_CG5_P1150838.JPG" style="width: 90%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: [Sandeep vats](https://en.wikipedia.org/wiki/File:Autograv_CG5_P1150838.JPG)
+(GNU FDL)
 
 </div>
 
@@ -83,16 +119,6 @@ Credit: [Jeff Kennedy, USGS](https://www.usgs.gov/media/images/a10-absolute-grav
 
 <!-- END MATTER -->
 <!-- ====================================================================== -->
-
-<!--## References and further reading-->
-
-<!--<div class="lefted">-->
-
-<!--* List of references-->
-
-<!--</div>-->
-
-<!------->
 
 <!-- .slide: class="slide-license" -->
 
