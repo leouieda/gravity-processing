@@ -17,7 +17,7 @@ Gravimetry
 
 <div class="r-stretch">
 
-# Relative gravimeters
+# Ground-based gravimetry
 
 </div>
 
@@ -101,7 +101,7 @@ Light-weight, fast reading time, low power consumption, truly portable
 </div>
 <div class="col-small tiny">
 
-[Microg LaCoste CG5 relative gravimeter]()
+[Microg LaCoste CG5 relative gravimeter](http://microglacoste.com/product/cg-6-autograv-gravity-meter/)
 
 <img src="../images/Autograv_CG5_P1150838.JPG" style="width: 90%;">
 
@@ -112,6 +112,97 @@ Light-weight, fast reading time, low power consumption, truly portable
 
 Image credit: [Sandeep vats](https://en.wikipedia.org/wiki/File:Autograv_CG5_P1150838.JPG)
 (GNU FDL)
+
+</div>
+
+---
+
+# Gravity networks
+
+<div class="container">
+<div class="col-large small">
+
+Tie relative measurements to a base station with known gravity (measured with
+an absolute gravimeter)
+
+1. Take a relative measurement at the base station
+1. Measure on point 1
+1. Calculate the difference
+1. Add difference to known gravity
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/gravity-network.svg" style="width: 100%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: Leonardo Uieda
+(CC-BY)
+
+</div>
+
+---
+
+# Gravity networks
+
+<div class="container">
+<div class="col-large small">
+
+Ideal survey would take measurements between all points
+
+Gravity calculated through least-squares adjustment of the differences
+
+More time-consuming so only done when high accuracy is required
+
+Example: geodetic determination of a vertical datum (the geoid)
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/gravity-network-full.svg" style="width: 100%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: Leonardo Uieda
+(CC-BY)
+
+</div>
+
+---
+
+# Gravity networks
+
+<div class="container">
+<div class="col-large small">
+
+Minimal network is a closed loop
+
+Often used for regional geophysical surveys
+
+Any systematic errors are distributed to all points
+
+Measure at the base station at the start and end to correct for instrumental
+drift
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/gravity-network-minimal.svg" style="width: 100%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: Leonardo Uieda
+(CC-BY)
 
 </div>
 
