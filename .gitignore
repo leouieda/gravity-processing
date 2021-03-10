@@ -1,2 +1,3 @@
 .ipynb_checkpoints/
-data/cape-town-surveys.zip
+practicals/cape-town-surveys
+practicals/*.csv
