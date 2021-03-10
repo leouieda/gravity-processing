@@ -14,9 +14,65 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="gravity-drift\.svg">
+   sodipodi:docname="gravity-drift.svg">
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1060" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1057" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1051" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1033" />
+    </marker>
     <marker
        style="overflow:visible"
        id="marker2766"
@@ -309,17 +365,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5221635"
-     inkscape:cx="169.25894"
-     inkscape:cy="279.81188"
+     inkscape:zoom="2.088654"
+     inkscape:cx="270.04064"
+     inkscape:cy="280.89698"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1588"
-     inkscape:window-height="1750"
-     inkscape:window-x="1600"
-     inkscape:window-y="38"
+     inkscape:window-width="3200"
+     inkscape:window-height="1800"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -333,7 +389,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -343,7 +399,7 @@
      id="layer1"
      transform="translate(-33.458375,-51.992128)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Send)"
        d="M 43.784104,53.777469 V 168.99775 H 189.53702"
        id="path833"
        sodipodi:nodetypes="ccc" />
@@ -399,7 +455,7 @@
          style="stroke-width:0.264583">linear drift</tspan></text>
     <g
        inkscape:label=""
-       transform="matrix(0.93088758,0,0,0.93088758,-21.975119,11.90198)"
+       transform="matrix(0.93088758,0,0,0.93088758,-21.975119,12.028656)"
        id="g1912">
       <g
          id="g5185">
@@ -481,5 +537,54 @@
        d="m 101.1634,89.339791 c 3.71323,5.519756 3.83909,9.763722 8.46474,7.636997 5.59299,-2.571478 6.91642,3.812092 8.72859,7.683712"
        id="path2756"
        sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1,4;stroke-dashoffset:0"
+       d="M 62.771073,143.2453 H 162.96169 V 89.400509"
+       id="path941"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g977"
+       transform="translate(-3.1428818,-0.5366122)">
+      <use
+         xlink:href="#symbol3766"
+         x="113.401"
+         y="92.382004"
+         id="use4491-5"
+         width="100%"
+         height="100%"
+         style="fill:#000000;fill-opacity:1"
+         transform="matrix(0.93088759,0,0,0.93088759,5.8844642,68.708554)" />
+      <use
+         xlink:href="#symbol2711"
+         x="121.703"
+         y="92.382004"
+         id="use6262-3"
+         width="100%"
+         height="100%"
+         style="fill:#000000;fill-opacity:1"
+         transform="matrix(0.93088759,0,0,0.93088759,5.8844642,68.708554)" />
+    </g>
+    <g
+       id="g1013"
+       transform="translate(-3.5463847,1.0162571)">
+      <use
+         xlink:href="#symbol3766"
+         x="112.814"
+         y="78.807999"
+         id="use8362-5"
+         width="100%"
+         height="100%"
+         style="fill:#000000;fill-opacity:1"
+         transform="matrix(0.93088759,0,0,0.93088759,64.594845,48.281866)" />
+      <use
+         xlink:href="#symbol628"
+         x="121.116"
+         y="78.807999"
+         id="use4903-9"
+         width="100%"
+         height="100%"
+         style="fill:#000000;fill-opacity:1"
+         transform="matrix(0.93088759,0,0,0.93088759,64.594845,48.281866)" />
+    </g>
   </g>
 </svg>

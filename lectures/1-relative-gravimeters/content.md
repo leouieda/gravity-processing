@@ -271,10 +271,102 @@ Example: reading = 2154.23
 |2000|2011.14|1.00519|
 |2100|2111.66|1.00520|
 |2200|2212.18|1.00521|
-|2300|2312.70|1.00523|
+
+<div class="tiny">
+
+Conversion table for LaCoste & Romberg Model G gravimeter. The more modern CG5
+and CG6 don't require conversion (they give you the value in mGal directly).
+
+</div>
 
 </div>
 </div>
+
+---
+
+# Leveling
+
+<div class="container">
+<div class="col-large small">
+
+The gravimeter is leveled (aligned with the vertical) before taking a reading
+
+Manually using a bubble level in older models (newer models do this
+automatically)
+
+Vertical is defined as the direction of gravity
+
+So what we measure is the **magnitude of the gravity acceleration vector**
+<br>
+(this will be important in the next lesson)
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/DetalleNivelDeBurbuja.jpg" style="width: 100%;">
+
+Example of a bubble level used to indicate if a surface is horizontal
+(perpendicular to gravity).
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: [aTarom](https://commons.wikimedia.org/wiki/File:DetalleNivelDeBurbuja.jpg)
+(public domain)
+
+</div>
+
+---
+
+# Not covered here
+
+Solid Earth tides:
+
+* Sun and Moon pull on the Earth, moving the ground up and down
+* Causes measurable gravity differences
+
+High precision surveying (microgravity):
+
+* Used to detect small changes in gravity (microGal level)
+* Examples: tunnels, chambers, caves, graves, etc
+* Requires extra care with drift (linear assumption is not good enough)
+
+---
+
+# Not covered here (continued)
+
+Atmospheric effects:
+
+* Changes in pressure influence readings for high precision surveys
+
+Glacial isostatic adjustment (GIA):
+
+* Areas with "recent" lost of glaciers (northern Canada, Scandinavia, etc) are
+  rebounding upward
+* Change in height creates a change in measured gravity
+* Visible effect when comparing multiple surveys
+
+---
+
+# Summary of acquisition
+
+1. Start at a base station with known gravity
+1. Level the gravimeter
+1. Take reading, time, and position (lat, lon, height)
+1. Repeat for other locations
+1. Finish back at the base station
+
+---
+
+# Summary of processing
+
+1. Calculate the drift rate
+1. Remove drift from readings
+1. Convert readings to mGal
+1. Calculate mGal difference with base station
+1. Add known gravity to the measured differences
 
 ---
 
