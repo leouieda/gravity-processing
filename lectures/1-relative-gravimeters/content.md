@@ -30,18 +30,18 @@ Gravimetry
 <span style="margin: 0 20px">|</span>
 [<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 
----
+<!------->
 
-<div class="centered">
-<div>
+<!--<div class="centered">-->
+<!--<div>-->
 
-# Learning outcomes
+<!--# Learning outcomes-->
 
-1. Explain the workings on relative gravimeters
-1.
+<!--1. Explain the workings on relative gravimeters-->
+<!--1.-->
 
-</div>
-</div>
+<!--</div>-->
+<!--</div>-->
 
 ---
 
@@ -184,9 +184,12 @@ Image credit: Leonardo Uieda
 
 Minimal network is a closed loop
 
+Gravity is calculated by adding the difference in readings to known gravity at
+the base station
+
 Often used for regional geophysical surveys
 
-Any systematic errors are distributed to all points
+Sensitive to errors since there are no redundant observations
 
 Measure at the base station at the start and end to correct for instrumental
 drift
@@ -204,6 +207,73 @@ drift
 Image credit: Leonardo Uieda
 (CC-BY)
 
+</div>
+
+---
+
+# Drift
+
+<div class="container">
+<div class="col-large small">
+
+Gravimeter readings drift with **time** so they reflect changes in gravity +
+drift
+
+Needs to be removed from observations
+
+Take readings at base station twice and assume the drift is linear
+
+Calculate drift on other points based on time of reading and remove it
+
+`$ \text{drift}_i = \alpha \Delta t_i $`
+
+</div>
+<div class="col-small tiny">
+
+<img src="../images/gravity-drift.svg" style="width: 100%;">
+
+</div>
+</div>
+
+<div class="r-stretch bottom-right">
+
+Image credit: Leonardo Uieda
+(CC-BY)
+
+</div>
+
+---
+
+# Convert readings to mGal
+
+<div class="container">
+<div class="col-large small">
+
+Some gravimeters require conversion of meter readings to mGal (1 mGal = 1e-5
+m/s²)
+
+Use a conversion table provided by manufacturer (specific to each instrument)
+
+(reading - range) * scale_factor + mGal_value
+
+Example: reading = 2154.23
+
+(2154.23 - 2100) * 1.00520 + 2111.66 = 2166.17 mGal
+
+
+</div>
+<div class="col-small small">
+
+|Reading range|mGal value|scale factor|
+|:---|:------|:------|
+|1800|1810.10|1.00518|
+|1900|1910.62|1.00518|
+|2000|2011.14|1.00519|
+|2100|2111.66|1.00520|
+|2200|2212.18|1.00521|
+|2300|2312.70|1.00523|
+
+</div>
 </div>
 
 ---
