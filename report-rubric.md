@@ -1,7 +1,8 @@
 # Rubric for marking the remote sensing report
 
 Report marking rubric with level descriptors and respective marks for different
-categories.
+categories. Each category will receive different weights when computing the
+final mark.
 
 <table border=1>
   <thead>
